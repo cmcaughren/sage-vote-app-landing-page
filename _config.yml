@@ -1,26 +1,25 @@
 #page title
-page_title                                :                                           # Automatically populates with app name if not set and if iOS app ID is set. Otherwise enter manually.
+page_title                                : Sage Vote           # Automatically populates with app name if not set and if iOS app ID is set. Otherwise enter manually.
 
 # App Info
-ios_app_id                                : 6744004947                                # Required. Enter iOS app ID to automatically populate name, price and icons (e.g. 718043190).
-ios_app_country                           : can                                        # Required outside USA. Enter 2 letter country code as in https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2
+ios_app_id                                : 6744004947          # Required. Enter iOS app ID to automatically populate name, price and icons (e.g. 718043190).
+ios_app_country                           : ca                  # Required outside USA. Enter 2 letter country code as in https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2
 
-appstore_link                             :                                           # Automatically populates if not set and if iOS app ID is set. Otherwise enter manually.
-playstore_link                            :                                           # Enter Google Play Store URL.
-presskit_download_link                    :                                           # Enter a link to downloadable file or (e.g. public Dropbox link to a .zip file). 
-                                                                                      # Or upload your press kit file to assets and set path accordingly (e.g. "assets/your_press_kit.zip").
+appstore_link                             :                     # Automatically populates if not set and if iOS app ID is set. Otherwise enter manually.
+playstore_link                            :                     # Enter Google Play Store URL.
+presskit_download_link                    :                     # Enter a link to downloadable file or (e.g. public Dropbox link to a .zip file). 
+                                                                # Or upload your press kit file to assets and set path accordingly (e.g. "assets/your_press_kit.zip").
 
 app_icon                                  : # assets/appicon.png                      # Automatically populates if not set and if iOS app ID is set.  Otherwise enter path to icon file manually.
-app_name                                  :                                           # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
+app_name                                  : Sage Vote                                 # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
 app_price                                 :                                           # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
-app_description                           : Write a short tagline for your app.
-
+app_description                           : An educational mobile game that teaches players about Canadian politics as they journey to the polling station. Navigate different transportation paths, learn about electoral processes, and collect knowledge in your notebook along the way.
 enable_smart_app_banner                   : true                                      # Set to true to show a smart app banner at top of page on mobile devices.
 
 
 
 # Information About Yourself
-your_name                                 : Carolyn Moen                                
+your_name                                 : Carolyn Moen, Nikki Hearns, Hannah Downes                                
 your_link                                 :                      
 your_city                                 : Nanaimo                                
 email_address                             : cmcaughren@gmail.com
@@ -38,81 +37,65 @@ mastodon_link                             :
 # Feature List                            Edit, add or remove features to be presented.
 features                                  :
 
-  - title                                 : GitHub Pages Jekyll Theme
-    description                           : Designed for GitHub Pages. Fork. Edit _config.yml. Upload screenshot/video. Push to gh-pages branch. Voilá!
-    fontawesome_icon_name                 : magic
+  - title                                 : Educational Journey to Democracy
+    description                           : Navigate your way to the polling station while learning about Canadian politics, electoral processes, and civic participation along the way.
+    fontawesome_icon_name                 : vote-yea
     
-  - title                                 : iPhone Device Preview
-    description                           : Preview your app in the context of an iPhone device. Five different device colors included.
-    fontawesome_icon_name                 : mobile
+  - title                                 : Multiple Transportation Paths
+    description                           : Choose between public transit, carpooling, or biking - each offering a unique journey with different challenges and learning opportunities.
+    fontawesome_icon_name                 : route
 
-  - title                                 : Video Support
-    description                           : Preview app video on the iPhone device simply by placing your video files in the videos folder.
-    fontawesome_icon_name                 : play-circle
+  - title                                 : Interactive Scenario Cards
+    description                           : Encounter realistic political scenarios that require decision-making and provide educational links to learn more about Canadian democracy.
+    fontawesome_icon_name                 : scroll
 
-  - title                                 : Automatic Icon and Metadata
-    description                           : Enter iOS app ID in the _config.yml file to automatically fetch app icon, price and App Store Link.
-    fontawesome_icon_name                 : sync
+  - title                                 : Knowledge Notebook
+    description                           : Collect educational resources in your digital notebook as you play, building a personalized reference guide to Canadian politics.
+    fontawesome_icon_name                 : book-open
 
-  - title                                 : Easy to Tweak
-    description                           : Tweak accent color, images, icons and transparency via the _config.yml file. No HTML/CSS needed.
-    fontawesome_icon_name                 : adjust
-  
-  - title                                 : Feature List
-    description                           : Add features (like this one) to your site via the _config.yml file. No HTML/CSS needed.
-    fontawesome_icon_name                 : star
+  - title                                 : Dice-Based Gameplay
+    description                           : Roll virtual dice to determine your path and face different scenarios, adding an element of chance to your educational journey.
+    fontawesome_icon_name                 : dice
 
-  - title                                 : Smart App Banner
-    description                           : Display a smart app banner on iOS devices.
-    fontawesome_icon_name                 : arrow-alt-circle-down
+  - title                                 : Learn About Voter Registration
+    description                           : Discover the real-world process of voter registration and ID requirements through interactive gameplay.
+    fontawesome_icon_name                 : id-card
 
-  - title                                 : Social Links
-    description                           : Easily add social media accounts and contact info in the footer via the _config.yml file. No HTML/CSS needed.
-    fontawesome_icon_name                 : link
-
-  - title                                 : FontAwesome Support
-    description                           : Pick custom Font Awesome icons for the feature list via the _config.yml file. No HTML/CSS needed.
-    fontawesome_icon_name                 : info-circle
-
-  - title                                 : # New Feature Title
-    description                           : # New Feature Description
-    fontawesome_icon_name                 : # Enter Font Awesome icon name (e.g. star). Find icons on fontawesome.com/icons.
+  - title                                 : Canadian Political Education
+    description                           : Access curated resources about Canada's electoral system, political processes, and civic responsibilities.
+    fontawesome_icon_name                 : flag
 
 
 
 # Theme Settings
-topbar_color                              : "#000000"
-topbar_transparency                       : 0.1
+topbar_color                              : "#87A771"           # Sage green primary color
+topbar_transparency                       : 0.9
 topbar_title_color                        : "#ffffff"
 
 cover_image                               : assets/headerimage.png                    # Replace with alternative image path or image URL.
-cover_overlay_color                       : "#363b3d"
+cover_overlay_color                       : "#87A771"           # Sage green overlay
 cover_overlay_transparency                : 0.8
 
 device_color                              : black                                     # Set to: blue, black, yellow, coral or white.
 
-body_background_color                     : "#ffffff"
+body_background_color                     : "#F5F9F2"           # Light sage background
 
-link_color                                : "#1d63ea"
+link_color                                : "#8B88F8"           # Periwinkle for links
 
 app_title_color                           : "#ffffff"
 app_price_color                           : "#ffffff"
 app_description_color                     : "#ffffff"
 
-feature_title_color                       : "#000000"
-feature_text_color                        : "#666666"
+feature_title_color                       : "#87A771"           # Sage green for feature titles
+feature_text_color                        : "#333333"           # Darker text for better readability
 
-feature_icons_foreground_color            : "#1d63ea"
-feature_icons_background_color            : "#e6e6e6"
+feature_icons_foreground_color            : "#8B88F8"           # Periwinkle for icon foreground
+feature_icons_background_color            : "#F5F9F2"           # Light sage background
 
-social_icons_foreground_color             : "#666666"
-social_icons_background_color             : "#e6e6e6"
+social_icons_foreground_color             : "#87A771"           # Sage green for social icons
+social_icons_background_color             : "#F5F9F2"           # Light sage background
 
 footer_text_color                         : "#666666"
-
-
-
-
 
 
 
