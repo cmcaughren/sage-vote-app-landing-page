@@ -76,7 +76,7 @@ device_color                              : black                               
 
 body_background_color                     : "#F5F9F2"           # Light sage background
 
-link_color                                : "#8B88F8"           # Periwinkle for links
+link_color                                : "#5F5AF4"           # Periwinkle for links
 
 app_title_color                           : "#ffffff"
 app_price_color                           : "#ffffff"
@@ -85,7 +85,7 @@ app_description_color                     : "#ffffff"
 feature_title_color                       : "#87A771"           # Sage green for feature titles
 feature_text_color                        : "#333333"           # Darker text for better readability
 
-feature_icons_foreground_color            : "#8B88F8"           # Periwinkle for icon foreground
+feature_icons_foreground_color            : "#5F5AF4"           # Periwinkle for icon foreground
 feature_icons_background_color            : "#B6B4FB"           # Light periwinkle background
 
 social_icons_foreground_color             : "#87A771"           # Sage green for social icons
