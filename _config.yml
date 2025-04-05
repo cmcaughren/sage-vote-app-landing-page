@@ -74,9 +74,9 @@ cover_overlay_transparency                : 0.8
 
 device_color                              : black                                     # Set to: blue, black, yellow, coral or white.
 
-body_background_color                     : "#F5F9F2"           # Light sage background
+body_background_color                     : "#e5ece1"           # Light sage background
 
-link_color                                : "#5F5AF4"           # Periwinkle for links
+link_color                                : "#5F5AF4"           # Deep Periwinkle for links
 
 app_title_color                           : "#ffffff"
 app_price_color                           : "#ffffff"
