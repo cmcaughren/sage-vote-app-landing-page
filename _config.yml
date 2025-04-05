@@ -86,10 +86,10 @@ feature_title_color                       : "#87A771"           # Sage green for
 feature_text_color                        : "#333333"           # Darker text for better readability
 
 feature_icons_foreground_color            : "#8B88F8"           # Periwinkle for icon foreground
-feature_icons_background_color            : "#F5F9F2"           # Light sage background
+feature_icons_background_color            : "#B6B4FB"           # Light sage background
 
 social_icons_foreground_color             : "#87A771"           # Sage green for social icons
-social_icons_background_color             : "#F5F9F2"           # Light sage background
+social_icons_background_color             : "#ABC19B"           # Light sage background
 
 footer_text_color                         : "#666666"
 
