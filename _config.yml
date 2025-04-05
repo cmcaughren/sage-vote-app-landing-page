@@ -64,12 +64,12 @@ features                                  :
 
 
 # Theme Settings
-topbar_color                              : "#87A771"           # Sage green primary color
+topbar_color                              : "#ABC19B"           # Sage green primary color
 topbar_transparency                       : 0.9
 topbar_title_color                        : "#ffffff"
 
 cover_image                               : assets/headerimage.png                    # Replace with alternative image path or image URL.
-cover_overlay_color                       : "#87A771"           # Sage green overlay
+cover_overlay_color                       : "#ABC19B"           # Sage green overlay
 cover_overlay_transparency                : 0.8
 
 device_color                              : black                                     # Set to: blue, black, yellow, coral or white.
@@ -86,7 +86,7 @@ feature_title_color                       : "#87A771"           # Sage green for
 feature_text_color                        : "#333333"           # Darker text for better readability
 
 feature_icons_foreground_color            : "#8B88F8"           # Periwinkle for icon foreground
-feature_icons_background_color            : "#B6B4FB"           # Light sage background
+feature_icons_background_color            : "#B6B4FB"           # Light periwinkle background
 
 social_icons_foreground_color             : "#87A771"           # Sage green for social icons
 social_icons_background_color             : "#ABC19B"           # Light sage background
