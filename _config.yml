@@ -85,11 +85,11 @@ app_description_color                     : "#ffffff"
 feature_title_color                       : "#87A771"           # Sage green for feature titles
 feature_text_color                        : "#333333"           # Darker text for better readability
 
-feature_icons_foreground_color            : "#5F5AF4"           # Periwinkle for icon foreground
+feature_icons_foreground_color            : "#5F5AF4"           # Deep Periwinkle for icon foreground
 feature_icons_background_color            : "#B6B4FB"           # Light periwinkle background
 
-social_icons_foreground_color             : "#FA8072"           # Sage green for social icons
-social_icons_background_color             : "#FCBBB6"           # Light sage background
+social_icons_foreground_color             : "#FA8072"           # Salmon for social icons
+social_icons_background_color             : "#FCBBB6"           # Light salmon background
 
 footer_text_color                         : "#666666"
 
