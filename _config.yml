@@ -13,13 +13,13 @@ presskit_download_link                    :                     # Enter a link t
 app_icon                                  : # assets/appicon.png                      # Automatically populates if not set and if iOS app ID is set.  Otherwise enter path to icon file manually.
 app_name                                  : Sage Vote                                 # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
 app_price                                 :                                           # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
-app_description                           : An educational mobile game that teaches players about Canadian politics as they journey to the polling station. Navigate different transportation paths, learn about electoral processes, and collect knowledge in your notebook along the way.
+app_description                           : An educational board game that teaches Canadian politics through an interactive journey to the polling station. Roll dice, navigate paths, and learn about democracy along the way.
 enable_smart_app_banner                   : true                                      # Set to true to show a smart app banner at top of page on mobile devices.
 
 
 
 # Information About Yourself
-your_name                                 : Carolyn Moen, Nikki Hearns, Hannah Downes                                
+your_name                                 : Carolyn Moen, Nikki Hearns & Hannah Downes                                
 your_link                                 :                      
 your_city                                 : Nanaimo                                
 email_address                             : cmcaughren@gmail.com
@@ -37,33 +37,29 @@ mastodon_link                             :
 # Feature List                            Edit, add or remove features to be presented.
 features                                  :
 
-  - title                                 : Educational Journey to Democracy
-    description                           : Navigate your way to the polling station while learning about Canadian politics, electoral processes, and civic participation along the way.
-    fontawesome_icon_name                 : vote-yea
-    
-  - title                                 : Multiple Transportation Paths
-    description                           : Choose between public transit, carpooling, or biking - each offering a unique journey with different challenges and learning opportunities.
-    fontawesome_icon_name                 : route
-
-  - title                                 : Interactive Scenario Cards
-    description                           : Encounter realistic political scenarios that require decision-making and provide educational links to learn more about Canadian democracy.
-    fontawesome_icon_name                 : scroll
-
-  - title                                 : Knowledge Notebook
-    description                           : Collect educational resources in your digital notebook as you play, building a personalized reference guide to Canadian politics.
-    fontawesome_icon_name                 : book-open
-
-  - title                                 : Dice-Based Gameplay
-    description                           : Roll virtual dice to determine your path and face different scenarios, adding an element of chance to your educational journey.
+  - title                                 : Learning Through Play
+    description                           : Discover the Canadian political landscape in an engaging, interactive board-game format that makes learning about democracy fun and accessible for everyone. 
     fontawesome_icon_name                 : dice
-
-  - title                                 : Learn About Voter Registration
-    description                           : Discover the real-world process of voter registration and ID requirements through interactive gameplay.
-    fontawesome_icon_name                 : id-card
-
+    
   - title                                 : Canadian Political Education
     description                           : Access curated resources about Canada's electoral system, political processes, and civic responsibilities.
     fontawesome_icon_name                 : flag
+    
+  - title                                 : Digital Board Game
+    description                           : Roll the dice, draw cards, and navigate your way across the board on your journey to cast your ballot in the Canadian election.
+    fontawesome_icon_name                 : route
+
+  - title                                 : Voter Registration
+    description                           : Begin your journey by learning about Canadian voter registration and the ID requirements of the Canadian Federal Election.
+    fontawesome_icon_name                 : id-card
+
+  - title                                 : Knowledge Notebook
+    description                           : Collect educational resources in your digital notebook as you play, building your personal reference guide to Canadian politics.
+    fontawesome_icon_name                 : book-open
+
+  - title                                 : Political Scenario Cards
+    description                           : Draw cards featuring fun political scenarios with outcomes determined by dice rolls, creating a different gameplay experience each time you play. 
+    fontawesome_icon_name                 : vote-yea
 
 
 
@@ -96,13 +92,6 @@ social_icons_foreground_color             : "#87A771"           # Sage green for
 social_icons_background_color             : "#F5F9F2"           # Light sage background
 
 footer_text_color                         : "#666666"
-
-
-
-
-
-
-
 
 
 ####################################################
