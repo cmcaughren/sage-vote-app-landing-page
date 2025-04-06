@@ -78,9 +78,9 @@ body_background_color                     : "#e5ece1"           # Light sage bac
 
 link_color                                : "#5F5AF4"           # Deep Periwinkle for links
 
-app_title_color                           : "#ffffff"
-app_price_color                           : "#ffffff"
-app_description_color                     : "#ffffff"
+app_title_color                           : "#333333"
+app_price_color                           : "#333333"
+app_description_color                     : "#333333"
 
 feature_title_color                       : "#87A771"           # Sage green for feature titles
 feature_text_color                        : "#333333"           # Darker text for better readability
