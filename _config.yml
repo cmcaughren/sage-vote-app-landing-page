@@ -66,10 +66,10 @@ features                                  :
 # Theme Settings
 topbar_color                              : "#ABC19B"           # Sage green primary color
 topbar_transparency                       : 0.9
-topbar_title_color                        : "#ffffff"
+topbar_title_color                        : "#333333"
 
 cover_image                               : assets/canadian_flag.jpg                    # Replace with alternative image path or image URL.
-cover_overlay_color                       : "#adb5bd"           # Sage green overlay
+cover_overlay_color                       : "#adb5bd"           # Light grey
 cover_overlay_transparency                : 0.8
 
 device_color                              : black                                     # Set to: blue, black, yellow, coral or white.
